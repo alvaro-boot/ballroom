@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Artículos sobre la historia del Ballroom, categorías, casas y cultura.",
+    "Artículos sobre la historia de Ballroom, categorías, casas y cultura negra.",
 };
 
 export default function BlogPage() {

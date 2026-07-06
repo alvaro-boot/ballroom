@@ -61,7 +61,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Vogue Society. Todos los derechos reservados.
           </p>
           <p className="font-[family-name:var(--font-cormorant)] text-sm text-gold italic">
-            Preservando la memoria del Ballroom.
+            Preservando la memoria de Ballroom.
           </p>
         </div>
       </div>

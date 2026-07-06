@@ -6,7 +6,7 @@ import { categories } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Categorías",
   description:
-    "Todas las categorías del Ballroom: Face, Runway, Vogue, Realness y más.",
+    "Todas las categorías de Ballroom: Face, Runway, Vogue, Realness y más.",
 };
 
 export default function CategoriasPage() {

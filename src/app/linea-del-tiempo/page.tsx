@@ -5,7 +5,7 @@ import { timelineEvents } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Línea del tiempo",
-  description: "Los momentos clave en la historia del Ballroom, de 1960 a hoy.",
+  description: "Los momentos clave en la historia de Ballroom, de 1960 a hoy.",
 };
 
 export default function LineaDelTiempoPage() {

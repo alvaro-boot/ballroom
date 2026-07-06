@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Galería",
-  description: "Fotografías del Ballroom en blanco y negro con detalles dorados.",
+  description: "Fotografías de Ballroom en blanco y negro con detalles dorados.",
 };
 
 const galleryItems = [
@@ -24,7 +24,7 @@ export default function GaleriaPage() {
       <PageHero
         label="Archivo visual"
         title="Galería"
-        subtitle="Imágenes que capturan la esencia del Ballroom: elegancia, resistencia y belleza."
+        subtitle="Imágenes que capturan la esencia de Ballroom: elegancia, resistencia negra y belleza."
       />
 
       <section className="px-6 py-20 lg:px-8">

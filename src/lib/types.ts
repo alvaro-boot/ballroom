@@ -2,24 +2,38 @@ export interface TimelineEvent {
   year: string;
   title: string;
   description: string;
+  detail?: string;
+}
+
+export interface HistorySection {
+  title: string;
+  paragraphs: string[];
 }
 
 export interface House {
   name: string;
   slug: string;
   description: string;
+  founded?: string;
+  founder?: string;
+  paragraphs: string[];
+}
+
+export interface HouseConcept {
+  title: string;
+  paragraphs: string[];
 }
 
 export interface Category {
   slug: string;
   name: string;
   tagline: string;
-  history: string;
-  origin: string;
-  judging: string;
-  judgesLookFor: string;
+  history: string[];
+  origin: string[];
+  judging: string[];
+  judgesLookFor: string[];
   icons: string[];
-  tips?: string;
+  tips?: string[];
   subcategories?: string[];
 }
 
@@ -29,6 +43,7 @@ export interface Legend {
   house?: string;
   excerpt: string;
   biography: string;
+  biographyParagraphs: string[];
   image?: string;
 }
 
@@ -37,9 +52,9 @@ export interface Documentary {
   title: string;
   year: string;
   description: string;
-  history: string;
+  history: string[];
   whereToWatch?: string;
-  influence?: string;
+  influence: string[];
 }
 
 export interface BlogPost {

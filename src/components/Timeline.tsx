@@ -36,6 +36,11 @@ export default function Timeline({ events }: TimelineProps) {
                 <p className="mt-3 text-sm leading-relaxed text-white/60">
                   {event.description}
                 </p>
+                {event.detail && (
+                  <p className="mt-3 text-sm leading-relaxed text-white/45">
+                    {event.detail}
+                  </p>
+                )}
               </div>
             </div>
           </div>

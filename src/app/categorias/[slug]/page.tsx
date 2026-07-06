@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHero from "@/components/PageHero";
+import ProseBlock from "@/components/ProseBlock";
 import FigurePortrait from "@/components/FigurePortrait";
 import { categories, getCategoryBySlug } from "@/lib/data";
 
@@ -29,10 +30,10 @@ export default async function CategoriaPage({ params }: Props) {
   if (!category) notFound();
 
   const sections = [
-    { title: "Historia", content: category.history },
-    { title: "Origen", content: category.origin },
-    { title: "Cómo se juzga", content: category.judging },
-    { title: "Qué buscan los jueces", content: category.judgesLookFor },
+    { title: "Historia", paragraphs: category.history },
+    { title: "Origen", paragraphs: category.origin },
+    { title: "Cómo se juzga", paragraphs: category.judging },
+    { title: "Qué buscan los jueces", paragraphs: category.judgesLookFor },
   ];
 
   return (
@@ -51,9 +52,9 @@ export default async function CategoriaPage({ params }: Props) {
                 {section.title}
               </h2>
               <div className="mt-3 gold-line" />
-              <p className="mt-5 leading-relaxed text-white/70">
-                {section.content}
-              </p>
+              <div className="mt-5">
+                <ProseBlock paragraphs={section.paragraphs} />
+              </div>
             </article>
           ))}
 
@@ -62,9 +63,9 @@ export default async function CategoriaPage({ params }: Props) {
               <h2 className="font-[family-name:var(--font-playfair)] text-xl text-gold">
                 Consejos
               </h2>
-              <p className="mt-4 leading-relaxed text-white/80">
-                {category.tips}
-              </p>
+              <div className="mt-4">
+                <ProseBlock paragraphs={category.tips} />
+              </div>
             </article>
           )}
 

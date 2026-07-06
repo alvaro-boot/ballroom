@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-24 pt-40 lg:px-8">
           <p className="animate-fade-in-up text-xs tracking-[0.4em] text-gold uppercase">
-            Archivo cultural del Ballroom
+            Archivo cultural de Ballroom
           </p>
           <h1 className="animate-fade-in-up animation-delay-200 mt-6 font-[family-name:var(--font-playfair)] text-6xl leading-[0.95] text-white md:text-8xl lg:text-9xl">
             Vogue
@@ -61,9 +61,15 @@ export default function Home() {
                 Una historia de resistencia
               </h2>
               <p className="mt-6 leading-relaxed text-white/60">
-                Desde Harlem en la década de 1960, la comunidad LGBTQ+ negra y
-                latina creó un espacio propio donde la belleza, la competencia y
-                la familia eran actos de supervivencia y protesta.
+                Desde Harlem en la década de 1960, personas negras LGBTQ+
+                crearon Ballroom como espacio propio donde la belleza, la
+                competencia y la familia eran actos de supervivencia y protesta
+                ante el racismo anti-negro — incluso dentro de los espacios queer.
+              </p>
+              <p className="mt-4 leading-relaxed text-white/50">
+                Crystal LaBeija dijo «basta» y fundó el sistema de Houses que
+                define la cultura hasta hoy. Esta es una historia negra que el
+                mundo conoció tarde, pero que nunca dejó de existir.
               </p>
               <Link
                 href="/historia"

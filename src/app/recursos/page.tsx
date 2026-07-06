@@ -5,7 +5,7 @@ import { glossaryTerms, cultureTerms } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Recursos",
   description:
-    "Glosario del Ballroom: Chop, Tens, Mop, Legend, Shade, Reading y más.",
+    "Glosario de Ballroom: Chop, Tens, Mop, Legend, Shade, Reading y más.",
 };
 
 export default function RecursosPage() {

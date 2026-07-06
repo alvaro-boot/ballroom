@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import QuoteBlock from "@/components/QuoteBlock";
+import ProseBlock from "@/components/ProseBlock";
 import FigurePortrait from "@/components/FigurePortrait";
 import { historySections, historyFigures } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Historia",
   description:
-    "La historia del Ballroom desde Harlem hasta la revolución cultural global.",
+    "La historia de Ballroom desde Harlem hasta la revolución cultural global — contada desde la memoria negra.",
 };
 
 export default function HistoriaPage() {
@@ -16,8 +17,8 @@ export default function HistoriaPage() {
     <>
       <PageHero
         label="Orígenes"
-        title="Historia del Ballroom"
-        subtitle="Desde la exclusión hasta la revolución: la historia de un movimiento que transformó la cultura."
+        title="Historia de Ballroom"
+        subtitle="Desde la exclusión anti-negra hasta la revolución: la historia de un movimiento creado por personas negras LGBTQ+ que transformó la cultura."
       />
 
       <section className="px-6 py-20 lg:px-8">
@@ -28,9 +29,9 @@ export default function HistoriaPage() {
                 {section.title}
               </h2>
               <div className="mt-4 gold-line" />
-              <p className="mt-6 text-base leading-relaxed text-white/70">
-                {section.content}
-              </p>
+              <div className="mt-6">
+                <ProseBlock paragraphs={section.paragraphs} />
+              </div>
             </article>
           ))}
         </div>
@@ -44,7 +45,7 @@ export default function HistoriaPage() {
           <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl text-white">
             Las madres y padres fundadores
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {historyFigures.map((figure) => (
               <Link
                 key={figure.slug}
@@ -60,6 +61,7 @@ export default function HistoriaPage() {
                   <span className="font-[family-name:var(--font-playfair)] text-xl text-gold transition-colors group-hover:text-white">
                     {figure.name}
                   </span>
+                  <p className="mt-2 text-xs text-white/50">{figure.role}</p>
                 </div>
               </Link>
             ))}

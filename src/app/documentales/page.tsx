@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
+import ProseBlock from "@/components/ProseBlock";
 import { documentaries, ballroomRegions } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Documentales",
   description:
-    "Paris Is Burning, Pose, How Do I Look y la escena Ballroom global.",
+    "Paris Is Burning, Pose, How Do I Look y la escena global de Ballroom.",
 };
 
 export default function DocumentalesPage() {
@@ -14,7 +15,7 @@ export default function DocumentalesPage() {
       <PageHero
         label="Cine y cultura"
         title="Documentales"
-        subtitle="Las obras que documentaron, difundieron y transformaron la percepción del Ballroom."
+        subtitle="Las obras que documentaron, difundieron y transformaron la percepción de Ballroom — y el debate sobre quién cuenta historias negras."
       />
 
       <section className="px-6 py-20 lg:px-8">
@@ -38,16 +39,16 @@ export default function DocumentalesPage() {
                 </h2>
                 <p className="mt-2 text-sm text-white/50">{doc.description}</p>
 
-                <h3 className="mt-6 text-xs tracking-[0.15em] text-gold uppercase">
+                <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
                   Historia
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-white/70">
-                  {doc.history}
-                </p>
+                <div className="mt-3">
+                  <ProseBlock paragraphs={doc.history} />
+                </div>
 
                 {doc.whereToWatch && (
                   <>
-                    <h3 className="mt-6 text-xs tracking-[0.15em] text-gold uppercase">
+                    <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
                       Dónde verlo
                     </h3>
                     <p className="mt-2 text-sm text-white/70">
@@ -56,16 +57,12 @@ export default function DocumentalesPage() {
                   </>
                 )}
 
-                {doc.influence && (
-                  <>
-                    <h3 className="mt-6 text-xs tracking-[0.15em] text-gold uppercase">
-                      Influencia
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-white/70">
-                      {doc.influence}
-                    </p>
-                  </>
-                )}
+                <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
+                  Influencia
+                </h3>
+                <div className="mt-3">
+                  <ProseBlock paragraphs={doc.influence} />
+                </div>
               </div>
             </article>
           ))}
