@@ -6,7 +6,7 @@ import { identities } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Identidades",
   description:
-    "El sistema de identidades de Ballroom: Femme Queen, Butch Queen, Female Figure, Male Figure, Twister y más.",
+    "El sistema de figuras y términos de Ballroom: Femme Queen, Butch Queen, Drag, Butch Queen Up in Drag, Female Figure, Male Figure, Twister y más.",
 };
 
 const figureLabels: Record<string, string> = {
@@ -19,20 +19,19 @@ export default function IdentidadesPage() {
   return (
     <>
       <PageHero
-        label="Sistema identitario"
+        label="Sistema de figuras"
         title="Identidades"
-        subtitle="Ballroom organiza la competencia por identidades comunitarias — no por suposiciones del mundo exterior. Conocerlas es entender la pista."
+        subtitle="Ballroom organiza la competencia por figuras, presentaciones y términos comunitarios — no por suposiciones del mundo exterior. Conocerlos es entender la pista."
       />
 
       <section className="px-6 py-12 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <p className="text-center text-sm leading-relaxed text-white/60">
-            Las identidades de Ballroom — Femme Queen, Butch Queen, Butch, Drag
-            Queen, Female Figure, Male Figure — son taxonomía comunitaria creada
-            por personas negras LGBTQ+ en Harlem. No son etiquetas clínicas: son
-            espacios de reconocimiento, competencia justa y pertenencia. Las
-            guías contemporáneas de Stephaun Elite Wallace y la House of Luna
-            codifican lo que las madres de Harlem siempre supieron.
+            Femme Queen, Butch Queen, Butch, Drag, Butch Queen Up in Drag,
+            Female Figure y Male Figure son parte de una taxonomía comunitaria
+            creada por personas negras LGBTQ+ en Harlem. No son etiquetas
+            clínicas: son herramientas para competir con justicia, reconocer
+            presentaciones distintas y proteger historias que no deben mezclarse.
           </p>
         </div>
       </section>

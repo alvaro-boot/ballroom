@@ -27,6 +27,13 @@ export const coreCategories: CoreCategory[] = [
       "También evalúan la presentación completa: peinado, accesorios, coherencia del look. Face no es solo rostro desnudo — es rostro en contexto, rostro como declaración. El competidor que gana es aquel que hace que los jueces no puedan apartar la mirada, aquel que encarna la frase que Crystal LaBeija gritó ante el mundo: «Soy bella y sé que soy bella».",
     ],
     icons: ["Octavia Saint Laurent", "Angie Xtravaganza", "Pepper LaBeija"],
+    subcategories: [
+      "Femme Queen Face",
+      "Butch Queen Face",
+      "Women's Face",
+      "GNC Face",
+      "New Face",
+    ],
     tips: [
       "En Face, menos es frecuentemente más. Los jueces veteranos distinguen entre maquillaje que realza y maquillaje que esconde — y prefieren la confianza de quien se atreve a mostrar piel real impecablemente preparada. Invierte en skincare, en iluminación, en practicar tu expresión facial frente al espejo hasta que tu presencia sea instintiva.",
       "Estudia a las leyendas, pero no las copies. Face premia la autenticidad dentro de la perfección. Encuentra qué ángulo favorece tu estructura ósea, qué tono resalta tu piel, qué actitud es tuya y solo tuya. La pista no quiere una imitación de Octavia — quiere que tú sirvas rostro como nadie más puede hacerlo.",
@@ -103,7 +110,7 @@ export const coreCategories: CoreCategory[] = [
       "Hoy, Realness sigue siendo relevante — aunque el contexto cambió. La visibilidad trans ha crecido, pero la violencia contra personas negras trans sigue siendo epidémica. Cada competidor que camina en Realness honra una tradición de supervivencia, de ingenio, de la afirmación de que merecen existir en cualquier forma que elijan.",
     ],
     origin: [
-      "Realness emergió en la década de 1970 y 1980, cuando las categorías de Ballroom se especializaron para reflejar las realidades de la comunidad. Las subcategorías — Executive Realness, School Boy Realness, Femme Queen Realness, Butch Queen Up in Drags Realness — codificaron contextos sociales específicos donde las personas trans y queer negras necesitaban ser convincentes para sobrevivir.",
+      "Realness emergió en la década de 1970 y 1980, cuando las categorías de Ballroom se especializaron para reflejar las realidades de la comunidad. Las subcategorías — Executive Realness, School Boy Realness, Femme Queen Realness, Drag Realness y Butch Queen Up in Drag Realness — codificaron contextos sociales específicos donde las personas trans y queer negras necesitaban ser convincentes para sobrevivir.",
       "La categoría también respondió a un deseo de validación. Si el mundo decía que no podías ser una mujer trans negra ejecutiva, la pista de Ballroom te daba un espacio para demostrar que sí — y para ser celebrada por ello. Realness fue refugio y protesta: «Míranos. Somos reales. Somos creíbles. Somos impecables».",
     ],
     judging: [
@@ -115,6 +122,16 @@ export const coreCategories: CoreCategory[] = [
       "También buscan la tensión entre realismo y estrella. Realness no es invisibilidad — es la habilidad de pasar mientras brillas. El competidor que gana es aquel que es completamente convincente y aun así memorable, aquel que demuestra que la autenticidad y el glamour no se excluyen.",
     ],
     icons: ["Venus Xtravaganza", "Octavia Saint Laurent"],
+    subcategories: [
+      "Everyday Realness",
+      "Executive Realness",
+      "Schoolboy Realness",
+      "Military Realness",
+      "Femme Queen Realness",
+      "Thug / Banjee Realness",
+      "Drag Realness",
+      "Butch Queen Up in Drag Realness",
+    ],
     tips: [
       "Investiga tu categoría con obsesión. Si caminas Executive Realness, estudia cómo visten ejecutivos reales, qué relojes usan, cómo caminan, cómo sostienen un maletín. Los detalles minúsculos son lo que separa a quien «se disfraza» de quien encarna.",
       "Realness exige respeto a la experiencia que representas. Muchas personas en la comunidad han vivido la necesidad de pasar — no es material de fantasía superficial. Camina con la dignidad de quien entiende que esta categoría nació de supervivencia, no de entretenimiento vacío.",
@@ -143,6 +160,7 @@ export const coreCategories: CoreCategory[] = [
       "También valoran el outfit y la presentación: la ropa debe complementar la performance, no distraer de ella. Buscan ese equilibrio entre provocación y elegancia que define a los grandes Sex Sirens. El competidor que gana deja a la pista sin aliento — y a los jueces convencidos.",
     ],
     icons: ["Angie Xtravaganza"],
+    subcategories: ["Sex Siren", "Sex Appeal", "Lion King", "Catboy"],
     tips: [
       "Sex Siren exige confianza genuina. Si no te sientes cómodo en tu sensualidad, la pista lo detectará. Practica hasta que el movimiento sea instintivo, hasta que la seducción sea expresión y no actuación forzada.",
       "Estudia a las leyendas, pero encuentra tu propio erotismo. No copies movimientos — desarrolla tu vocabulario sensual. Y recuerda: control es todo. La categoría premia a quien seduce con maestría, no a quien busca shock sin sustancia.",

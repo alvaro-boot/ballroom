@@ -13,6 +13,7 @@ export {
   cultureTerms,
   blogPosts,
 } from "./content/misc";
+export { galleryItems } from "./content/gallery";
 
 import { categories } from "./content/categories";
 import { identities } from "./content/identities";

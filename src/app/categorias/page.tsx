@@ -46,7 +46,7 @@ export default function CategoriasPage() {
       <PageHero
         label="Competencia"
         title="Categorías"
-        subtitle={`${categories.length} categorías que componen la arquitectura de competencia de Ballroom — desde Face hasta Production, desde Realness hasta Virgin Vogue.`}
+        subtitle={`${categories.length} categorías que componen la arquitectura de competencia de Ballroom — desde Face hasta Production, desde Realness hasta Beginner Vogue.`}
       />
 
       <section className="border-b border-white/10 px-6 py-8 lg:px-8">

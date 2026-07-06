@@ -9,7 +9,7 @@ export const extraCategories: Category[] = [
     group: "belleza",
     whoCanWalk: [
       "Solo Femme Queens (FQ): mujeres trans dentro de Ballroom. En la nomenclatura internacional también se identifican como MTF (male-to-female).",
-      "No pueden caminar Butch Queens (BQ, hombres gay cis), Female Figures (FF, mujeres cis), Male Figures (MF, hombres cis hetero o gay fuera de BQ), Butches (mujeres cis masculinas) ni Drag Queens (BQ en presentación femenina drag).",
+      "No pueden caminar Butch Queens (BQ, hombres gay cis), Women (mujeres cis), Male Figures (MF), Butches (mujeres cis masculinas), Drag ni Butch Queen Up in Drag.",
       "Esta restricción honra la experiencia específica de las mujeres trans negras, cuyo rostro ha sido escrutado, negado y celebrado en contextos distintos al resto de la pista.",
     ],
     history: [
@@ -46,7 +46,7 @@ export const extraCategories: Category[] = [
     group: "belleza",
     whoCanWalk: [
       "Solo Butch Queens (BQ): hombres gay cis dentro de Ballroom. Son la figura masculina gay central de la cultura de Ballroom.",
-      "No pueden caminar hombres trans (FTM), mujeres Butch cis, Femme Queens (mujeres trans), Female Figures (mujeres cis) ni Drag Queens en presentación femenina.",
+      "No pueden caminar hombres trans (FTM), mujeres Butch cis, Femme Queens (mujeres trans), Women, Drag ni Butch Queen Up in Drag.",
       "La categoría existe para que los hombres gay negros compitan entre pares, evaluando belleza facial masculina sin mezclar criterios de otras identidades.",
     ],
     history: [
@@ -79,7 +79,7 @@ export const extraCategories: Category[] = [
     group: "belleza",
     whoCanWalk: [
       "Solo Female Figures (FF): mujeres cis dentro de Ballroom. Son mujeres no trans que compiten en categorías femeninas específicas.",
-      "No pueden caminar Femme Queens (mujeres trans), Butch Queens (hombres gay cis), Drag Queens ni Butches (mujeres cis masculinas).",
+      "No pueden caminar Femme Queens (mujeres trans), Butch Queens (hombres gay cis), Drag, Butch Queen Up in Drag ni Butches (mujeres cis masculinas).",
       "La categoría reconoce la experiencia específica de las mujeres cis negras dentro de la cultura de Ballroom, un espacio históricamente centrado en personas trans y hombres gay.",
     ],
     history: [
@@ -104,6 +104,75 @@ export const extraCategories: Category[] = [
       "El competidor que gana transmite la elegancia y el poder de las mujeres negras en Ballroom: impecable, memorable e inolvidable.",
     ],
     icons: [],
+  },
+  {
+    slug: "gnc-face",
+    name: "GNC Face",
+    tagline: "Rostro que habita entre géneros con precisión y poder",
+    group: "belleza",
+    whoCanWalk: [
+      "Gender Non-Conforming (GNC): competidores que presentan una mezcla de estética masculina y femenina en rostro, maquillaje y styling.",
+      "Generalmente OTA en balls contemporáneos — verifica el flyer. GNC Face acoge a quienes no encajan en categorías binarias de Face pero sirven rostro con convicción.",
+      "No confundir con Femme Queen Face, Butch Queen Face ni Women's Face — GNC Face evalúa belleza facial desde presentación no binaria o fluida.",
+    ],
+    history: [
+      "GNC Face es una categoría relativamente reciente dentro de Ballroom, formalizada en la escena kiki y adoptada en main balls internacionales a partir de la década de 2010. Responde a una necesidad reconocida por la comunidad: rostros que habitan entre géneros merecen espacio competitivo propio, no categorías diseñadas para experiencias binarias.",
+      "Figuras como Symba McQueen en la escena kiki neoyorquina y Rikka Milan e India 007 en escenas globales impulsaron la categoría como espacio explícito para Gender Non-Conforming. En Harlem, la lógica siempre fue inclusiva — Crystal LaBeija creó Ballroom para quienes no encajaban; GNC Face codifica esa herencia en reglas competitivas.",
+      "La categoría evalúa los mismos elementos fundamentales de Face — ojos, dientes, piel, estructura ósea, nariz — pero en contexto de presentación que mezcla, desafía o trasciende género binario. Los jueces buscan coherencia estética, no conformidad a estándares masculinos o femeninos.",
+      "Hoy, GNC Face aparece en balls de todo el planeta — desde Tokio hasta Bogotá — como categoría que honra la diversidad de género dentro de una cultura negra que siempre supo que la identidad es más compleja que dos casillas.",
+    ],
+    origin: [
+      "GNC Face emergió cuando la comunidad de Ballroom reconoció que categorías binarias de Face — Femme Queen, Butch Queen, Women's — dejaban fuera a competidores no binarios y gender non-conforming. La categoría no inventó la presencia GNC en la pista; la hizo visible y competitiva.",
+      "House of Luna, escenas kiki internacionales y balls como The Posh Ball en Vancouver incluyen GNC Face en sus lineups OTA. La regla central: presentación que mezcla masculino y femenino con intención, precisión y belleza indiscutible.",
+      "GNC Face dialoga con la expansión global de Ballroom sin diluir sus raíces negras de Harlem. Es inclusión con criterios — no categoría de consolación, sino espacio donde la perfección facial no binaria compite entre pares.",
+    ],
+    judging: [
+      "Los jueces evalúan simetría facial, calidad de piel, maquillaje y grooming con la misma rigurosidad que cualquier categoría de Face. La diferencia está en el contexto: ¿la presentación GNC es coherente, intencional y hermosa?",
+      "Se considera actitud, «tens» y la capacidad de «vender» el rostro como en editorial de moda. GNC Face no premia la ambigüedad accidental — premia la maestría deliberada de quien habita entre géneros con estilo.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan piel impecable, maquillaje o grooming que realce sin borrar, y presencia que comande la pista. Buscan originalidad estética: una visión GNC propia, no imitación de Face masculino o femenino.",
+      "Evalúan coherencia total — peinado, accesorios, outfit complementario. El competidor que gana demuestra que la belleza no binaria en Ballroom es tan exigente, tan editorial y tan memorable como cualquier rostro en la pista.",
+    ],
+    icons: [],
+    tips: [
+      "Define tu estética GNC con claridad antes de caminar. Los jueces premian intención, no confusión.",
+      "Estudia referencias editoriales que mezclen géneros — pero construye un look que sea tuyo. GNC Face exige autenticidad dentro de la perfección.",
+    ],
+  },
+  {
+    slug: "new-face",
+    name: "New Face",
+    tagline: "Primer rostro, primera corona, primer paso en la pista",
+    group: "belleza",
+    whoCanWalk: [
+      "Competidores que nunca han ganado un trofeo en categorías de Face — «new face» significa sin victorias previas en Face, no necesariamente sin experiencia en Ballroom.",
+      "Generalmente OTA o según figura declarada (FQ, BQ, Women, GNC). Verifica reglas del ball — algunos separan New Face por figura, otros la mantienen abierta.",
+      "New Face es categoría de iniciación en belleza facial: espacio para demostrar potencial antes de enfrentar leyendas en Face principal.",
+    ],
+    history: [
+      "New Face codificó la tradición de Ballroom de acoger a nuevos competidores en Face sin aplastarlos con veteranos. En Harlem, la pista siempre tuvo espacio para quienes empezaban — kiki balls, categorías de iniciación y la lógica comunitaria de enseñar mientras se compite.",
+      "La categoría evalúa potencial tanto como técnica actual. Los jueces buscan promesa — rostros que muestran fundamentos sólidos, actitud correcta y hambre de crecer. Ganar New Face no es consolación: es primer trofeo, primera validación, primer paso hacia categorías mayores de Face.",
+      "Muchas leyendas de Ballroom — Octavia Saint Laurent, Angie Xtravaganza — empezaron compitiendo en espacios donde demostraban rostro antes de consolidar estatus legendario. New Face honra ese camino de iniciación dentro de la cultura negra de Harlem.",
+      "Hoy, New Face aparece en balls de todo el planeta como categoría staple en kiki y main balls. Cada competidor que camina lleva la posibilidad de ser la próxima cara icónica de Ballroom.",
+    ],
+    origin: [
+      "New Face emergió con la formalización de categorías de iniciación en la década de 1990-2000, paralela a categorías Beginner en otras disciplinas. La comunidad reconoció que Face — una de las categorías más competitivas — necesitaba puerta de entrada.",
+      "Balls como The Posh Ball y escenas kiki internacionales mantienen New Face con reglas claras: sin trofeos previos en Face. La categoría refleja el espíritu original de Ballroom como refugio — acoger, enseñar, celebrar primeros pasos.",
+    ],
+    judging: [
+      "Los jueces evalúan simetría facial, calidad de piel, maquillaje y presencia con rigor, pero también potencial. No exigen perfección de leyenda — exigen fundamentos limpios, actitud confiada y hambre visible.",
+      "Se considera coherencia del look, grooming impecable y «tens». New Face premia quien muestra que podría dominar Face principal en el futuro.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan rostro impecable con actitud que no pide permiso. Buscan potencial: el new face que podría ser leyenda si sigue practicando.",
+      "Evalúan respeto a la cultura y autenticidad. El competidor que gana demuestra chops, presencia y promesa indiscutible.",
+    ],
+    icons: [],
+    tips: [
+      "New Face es tu oportunidad — invierte en skincare, practica maquillaje, estudia ángulos. No intentes imitar leyendas; sirve tu rostro.",
+      "Observa veteranos, pide feedback, únete a una House. El primer trofeo en Face es inicio, no destino.",
+    ],
   },
 
   // ─── REALNESS ──────────────────────────────────────────────────────────────
@@ -139,6 +208,43 @@ export const extraCategories: Category[] = [
       "También valoran el respeto a la experiencia representada. Realness exige caminar con dignidad, no con burla.",
     ],
     icons: ["Venus Xtravaganza", "Octavia Saint Laurent"],
+  },
+  {
+    slug: "everyday-realness",
+    name: "Everyday Realness",
+    tagline: "Pasar como ordinario en un mundo extraordinario",
+    group: "realness",
+    whoCanWalk: [
+      "OTA Realness — Female Figure (FF) y Male Figure (MF) según el ball. Everyday Realness evalúa qué tan convincentemente puedes pasar como persona común en la calle, sin glamour de ball ni estética de pasarela.",
+      "Subcategorías comunes: FF Everyday (mujer cis o trans en look cotidiano), MF Everyday (hombre gay cis, butch, trans man en presentación masculina casual). Verifica flyer para restricciones.",
+      "Everyday Realness es una de las subcategorías más accesibles y profundas de Realness — codifica la supervivencia cotidiana en Harlem.",
+    ],
+    history: [
+      "Everyday Realness codificó la experiencia más literal de «passing» en Ballroom: no el ejecutivo de Wall Street ni el soldado en uniforme, sino la persona común caminando por Harlem, tomando el metro, comprando en la bodega — invisible y creíble a la vez.",
+      "Para personas negras trans y queer en la década de 1980, ser «everyday» convincente era supervivencia. La ropa casual correcta, el maquillaje natural, el lenguaje corporal que no delata — todo eso se transformó en arte competitivo en la pista de Ballroom.",
+      "Everyday Realness aparece en balls contemporáneos como categoría OTA staple — The Posh Ball la incluye en su lineup de Realness junto a Executive, Schoolboy, Thug y otras. Es Realness en su forma más cotidiana y más exigente: sin disfraces elaborados, solo credibilidad pura.",
+      "Cada competidor que camina Everyday Realness honra la tradición de quienes navegaron espacios públicos hostiles con ropa, actitud y precisión que les permitían existir un día más.",
+    ],
+    origin: [
+      "Everyday Realness emergió junto con la especialización de Realness en subcategorías en la década de 1980. Mientras Executive y Military codificaban fantasías de poder, Everyday codificaba la realidad más común: ser nadie especial y, precisamente por eso, ser creíble.",
+      "La categoría respondió a la necesidad de evaluar realness sin espectáculo — jeans, sneakers, hoodie, look de oficina casual, ropa de fin de semana. Los detalles minúsculos importan más aquí que en cualquier otra subcategoría de Realness.",
+      "House of Luna y guías de Stephaun Elite Wallace reconocen Everyday Realness como subcategoría fundamental dentro del paraguas OTA Realness.",
+    ],
+    judging: [
+      "Los jueces evalúan autenticidad absoluta. Observan ropa cotidiana apropiada, grooming natural, maquillaje invisible o mínimo, lenguaje corporal relajado y credibilidad total del personaje «persona común».",
+      "Un outfit demasiado elaborado, un gesto teatral o cualquier elemento que grite «ballroom» cuesta la victoria. Everyday Realness premia lo opuesto: invisibilidad impecable.",
+      "También consideran walk y actitud en pista — debes encarnar ordinario sin parecer aburrido. El equilibrio entre credibilidad y presencia separa ganadores de participantes.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan: «¿Creerías que esta persona camina por la calle sin ser detectada?» — ropa real, accesorios reales, energía real, sin elementos de fantasía.",
+      "Buscan respeto a la experiencia de passing cotidiano. Everyday Realness no es disfraz de pobreza ni caricatura — es encarnación con dignidad.",
+      "El competidor que gana hace olvidar que está en un ball mientras demuestra maestría en lo aparentemente simple.",
+    ],
+    icons: ["Venus Xtravaganza"],
+    tips: [
+      "Observa personas reales en el contexto que representas — no en Pinterest. Everyday Realness exige investigación de lo ordinario.",
+      "Menos es más. Un reloj incorrecto, un zapato fuera de lugar, un gesto demasiado performativo — cualquier fisura te cuesta.",
+    ],
   },
   {
     slug: "executive-realness",
@@ -278,19 +384,19 @@ export const extraCategories: Category[] = [
     tagline: "La masculinidad trans como realidad conquistada",
     group: "realness",
     whoCanWalk: [
-      "Solo hombres trans (FTM, female-to-male) dentro de Ballroom. También referidos como Butch Queens Up in Drags Realness en balls tradicionales, aunque la nomenclatura evoluciona hacia respeto explícito a identidad trans masculina.",
+      "Solo hombres trans (FTM, female-to-male) dentro de Ballroom. No son Butches ni Butch Queens Up in Drag; Trans Man Realness tiene espacio propio.",
       "Trans Man Realness evalúa qué tan convincentemente un hombre trans puede pasar en contextos masculinos específicos.",
       "No pueden caminar Butch Queens cis ni Female Figures. La categoría honra la experiencia específica de hombres trans negros.",
     ],
     history: [
-      "Trans Man Realness reconoce que la experiencia de hombres trans negros en Ballroom merece categoría propia. Históricamente, hombres trans competían en categorías ambiguas o bajo «Butch Queen Up in Drags Realness» — nomenclatura que la comunidad contemporánea está reemplazando por lenguaje que respeta identidad trans masculina.",
+      "Trans Man Realness reconoce que la experiencia de hombres trans negros en Ballroom merece categoría propia. Históricamente, hombres trans fueron leídos de forma ambigua o mezclados con categorías que no nombraban su realidad; la escena contemporánea corrige eso con lenguaje más preciso.",
       "La categoría evalúa credibilidad masculina en contextos específicos: everyday, executive, military, street — con la precisión que la experiencia trans exige. Cada detalle de binding, grooming, ropa y actitud importa.",
       "Trans Man Realness también dialoga con la violencia y discriminación que hombres trans negros enfrentan — en espacios masculinos, en calles, en sistemas de salud. La pista ofrece afirmación: «Tu masculinidad es real, es creíble, es impecable».",
       "En balls contemporáneos, Trans Man Realness gana visibilidad y respeto. Cada competidor que camina expande la definición de Ballroom sin olvidar sus raíces negras de Harlem.",
     ],
     origin: [
       "Trans Man Realness emergió formalmente en la década de 2000-2010, aunque hombres trans han participado en Ballroom desde sus inicios. La categoría codificó espacio competitivo explícito a medida que la comunidad reconoció identidades trans masculinas.",
-      "La evolución del lenguaje — de «BQ Up in Drags» a «Trans Man Realness» — refleja el crecimiento de Ballroom hacia inclusión respetuosa sin perder rigor competitivo.",
+      "La evolución del lenguaje refleja el crecimiento de Ballroom hacia inclusión respetuosa sin perder rigor competitivo.",
       "Balls internacionales y House of Luna incluyen categorías para hombres trans con reglas claras y respeto a identidad.",
     ],
     judging: [
@@ -339,37 +445,70 @@ export const extraCategories: Category[] = [
     icons: [],
   },
   {
-    slug: "drag-queen-realness",
-    name: "Drag Queen Realness",
-    tagline: "La ilusión femenina drag como maestría absoluta",
+    slug: "drag-realness",
+    name: "Drag Realness",
+    tagline: "La presentación drag como maestría absoluta en Female Figure",
     group: "realness",
     whoCanWalk: [
-      "Solo Drag Queens (DQ): hombres gay cis (Butch Queens) que presentan en drag femenino. En Ballroom, «Drag Queen» es identidad específica distinta de Femme Queen (mujer trans).",
-      "Drag Queen Realness evalúa qué tan convincentemente un hombre en drag puede pasar como mujer cis en contextos específicos — no como mujer trans, sino como ilusión drag femenina creíble.",
-      "No pueden caminar Femme Queens ni Female Figures. La distinción entre drag y trans es fundamental en Ballroom.",
+      "Solo Drag: personas que van a los balls de mujer de forma sostenida, ya sea porque están en transición hacia FQ o porque les gusta esa presentación.",
+      "Drag Realness evalúa qué tan convincentemente una persona Drag puede pasar como mujer cis en contextos específicos — no como mujer trans, sino como presentación drag femenina creíble.",
+      "Entra en Female Figure. No es Femme Queen ni Butch Queen Up in Drag; la distinción entre drag, FQ y BQUID es fundamental en Ballroom.",
     ],
     history: [
-      "Drag Queen Realness codificó la tradición drag dentro de Ballroom — hombres gay que crean ilusión femenina como arte, no como identidad trans. En Harlem, drag y Ballroom compartían espacios pero tenían lógicas distintas: drag es performance de género; Femme Queen es identidad trans.",
+      "Drag Realness codificó la tradición drag dentro de Ballroom: personas que sostienen una presentación femenina en los balls como arte, exploración o tránsito hacia FQ. En Harlem, drag y Ballroom compartían espacios, pero Ballroom desarrolló reglas propias para no confundir drag con Femme Queen.",
       "La categoría evalúa credibilidad de la ilusión drag: maquillaje, padding, voz si se usa, walk femenino, ropa y actitud que venden «mujer» de forma convincente en contexto específico.",
-      "Drag Queen Realness también honra a leyendas drag negras que construyeron Ballroom — Pepper LaBeija, Dorian Corey y generaciones de Drag Queens cuya maestría de ilusión definió la estética de la pista.",
-      "En balls contemporáneos, Drag Queen Realness sigue siendo espectacular. La línea entre drag y trans se respeta con rigor — confundir identidades es falta grave en Ballroom.",
+      "Drag Realness también honra a leyendas drag negras que construyeron Ballroom — Pepper LaBeija, Dorian Corey y generaciones cuya maestría de ilusión definió la estética de la pista.",
+      "En balls contemporáneos, Drag Realness sigue siendo espectacular. La línea entre drag, BQ Up in Drag y FQ se respeta con rigor porque cada figura tiene historia y criterios propios.",
     ],
     origin: [
-      "Drag Queen Realness emergió en la década de 1980 como subcategoría que distinguía ilusión drag de experiencia trans. La comunidad necesitaba claridad: Femme Queen Realness para mujeres trans, Drag Queen Realness para hombres en drag.",
-      "House of Luna especifica: «This person should be a cisgender male who presents as a female (crossdressing)» — la definición clásica de Drag Queen en Ballroom.",
+      "Drag Realness emergió en la década de 1980 como subcategoría que distinguía presentación drag de experiencia trans. La comunidad necesitaba claridad: Femme Queen Realness para mujeres trans, Drag Realness para quienes sostienen drag como presentación en la escena.",
+      "La definición contemporánea usa Drag: persona que va a los balls de mujer de forma sostenida, distinta del BQ que sube en drag solo para ciertos balls.",
       "La categoría preserva la tradición drag negra dentro de estructura competitiva respetuosa.",
     ],
     judging: [
       "Los jueces evalúan la ilusión drag completa: maquillaje impecable, silueta creíble, walk femenino, actitud y coherencia en contexto específico.",
       "Buscan «tuck» invisible, padding natural, voz y gestos coherentes con la ilusión.",
-      "Errores que delatan masculinidad involuntariamente cuestan la victoria — Drag Queen Realness exige maestría técnica.",
+      "Errores que rompen la presentación cuestan la victoria — Drag Realness exige maestría técnica.",
     ],
     judgesLookFor: [
       "Los jueces buscan la pregunta: «¿Creerías que es una mujer cis en este contexto?» — evaluando ilusión drag, no identidad trans.",
       "Buscan respeto a la tradición drag negra: maestría, no burla; arte, no caricatura.",
-      "El competidor que gana es ilusionista supremo — drag queen negro con técnica impecable.",
+      "El competidor que gana es ilusionista supremo — Drag con técnica impecable.",
     ],
     icons: ["Pepper LaBeija", "Dorian Corey"],
+  },
+  {
+    slug: "butch-queen-up-in-drag-realness",
+    name: "Butch Queen Up in Drag Realness",
+    tagline: "El BQ que se presenta en fem para ciertos balls",
+    group: "realness",
+    whoCanWalk: [
+      "Solo Butch Queens Up in Drag: Butch Queens que para ciertos balls o categorías se visten y presentan como mujeres.",
+      "En esa presentación entran en Female Figure, pero siguen siendo Butch Queens en su figura comunitaria de base.",
+      "No es Drag sostenido ni Femme Queen. La categoría existe para evaluar esa presentación ocasional sin mezclarla con FQ ni con Drag.",
+    ],
+    history: [
+      "Butch Queen Up in Drag Realness reconoce una práctica específica de Ballroom: el BQ que normalmente camina como Male Figure, pero para una noche, un theme o una categoría sube en drag y compite dentro de Female Figure.",
+      "La distinción protege la arquitectura de la pista. Drag es quien va a los balls de mujer de forma sostenida; BQ Up in Drag es el mariquita que decide presentarse en fem para ciertos balls. Una Femme Queen no pertenece a esta categoría porque no está «up in drag»: es mujer.",
+      "En Harlem, esa precisión fue necesaria para sostener competencia justa entre experiencias distintas. No todo lo fem en la pista significa lo mismo, y Ballroom sabe leer esos matices.",
+      "Hoy, BQ Up in Drag Realness permite que el BQ demuestre ilusión, técnica y credibilidad femenina sin borrar su base BQ ni invadir categorías FQ.",
+    ],
+    origin: [
+      "La categoría se formalizó a partir de la necesidad de separar drag sostenido, FQ y BQ que sube en drag. Los balls tradicionales podían agrupar estas presentaciones de forma imprecisa; la escena contemporánea exige más claridad.",
+      "Butch Queen Up in Drag conserva la memoria del drag negro y del juego de género en Ballroom, pero lo ubica correctamente dentro de Female Figure para esa presentación específica.",
+      "Su existencia demuestra que Ballroom no es binario simple: distingue figura, presentación, frecuencia y contexto competitivo.",
+    ],
+    judging: [
+      "Los jueces evalúan ilusión femenina creíble: maquillaje, padding, walk, outfit, actitud, grooming y coherencia total del personaje.",
+      "También observan si el competidor entiende la diferencia entre jugar con drag y caricaturizar feminidad. BQ Up in Drag debe servir respeto, no burla.",
+      "La presentación debe sostenerse de principio a fin; cualquier quiebre involuntario puede costar la victoria.",
+    ],
+    judgesLookFor: [
+      "Buscan al BQ que convence en Female Figure durante esa categoría específica: precisión, elegancia, fem realness y control.",
+      "Buscan transformación sin perder integridad. El competidor que gana demuestra que entiende tanto su base BQ como la demanda de caminar en fem.",
+      "La categoría premia ilusión, respeto y técnica.",
+    ],
+    icons: [],
   },
   {
     slug: "pretty-boy-realness",
@@ -544,39 +683,39 @@ export const extraCategories: Category[] = [
     icons: ["Archie Burnett"],
   },
   {
-    slug: "virgin-vogue",
-    name: "Virgin Vogue",
+    slug: "beginner-vogue",
+    name: "Beginner Vogue",
     tagline: "La puerta de entrada al baile sagrado",
     group: "vogue",
     whoCanWalk: [
-      "Competidores que nunca han ganado un trofeo en categorías de Vogue — «virgin» significa sin victorias previas en voguing, no necesariamente sin experiencia.",
-      "Generalmente OTA o según identidad declarada. Virgin Vogue es categoría de iniciación que acoge a quienes están comenzando su camino competitivo en voguing.",
-      "Verifica reglas específicas del ball — algunos restringen por identidad, otros son abiertos a virgin voguers de cualquier figura.",
+      "Competidores con menos de un año en categorías de Vogue y sin Grand Prize — Beginner es categoría de iniciación para quienes están comenzando su camino competitivo en voguing.",
+      "Generalmente OTA o según identidad declarada. Beginner Vogue es categoría de iniciación que acoge a quienes están comenzando su camino competitivo en voguing.",
+      "Verifica reglas específicas del ball — algunos restringen por identidad, otros son abiertos a beginner voguers de cualquier figura.",
     ],
     history: [
-      "Virgin Vogue codificó la tradición de Ballroom de acoger a nuevos competidores sin aplastarlos con veteranos. En Harlem, los kiki balls y categorías virgin permitían practicar, competir y ganar confianza antes de enfrentar leyendas en categorías principales.",
+      "Beginner Vogue codificó la tradición de Ballroom de acoger a nuevos competidores sin aplastarlos con veteranos. En Harlem, los kiki balls y categorías beginner permitían practicar, competir y ganar confianza antes de enfrentar leyendas en categorías principales.",
       "La categoría evalúa potencial tanto como técnica actual. Los jueces buscan promesa — voguers que muestran chops básicos, actitud correcta y hambre de aprender.",
-      "Virgin Vogue también es categoría de comunidad: mentores en la audiencia observan, Houses reclutan talento, y nuevos voguers encuentran familia en la pista.",
-      "Ganar Virgin Vogue no es consolación — es primer trofeo, primera validación, primer paso hacia categorías mayores. Muchas leyendas empezaron aquí.",
+      "Beginner Vogue también es categoría de comunidad: mentores en la audiencia observan, Houses reclutan talento, y nuevos voguers encuentran familia en la pista.",
+      "Ganar Beginner Vogue no es consolación — es primer trofeo, primera validación, primer paso hacia categorías mayores. Muchas leyendas empezaron aquí.",
     ],
     origin: [
-      "Virgin Vogue emergió con la formalización de kiki scene y categorías de iniciación en la década de 1990-2000. La comunidad reconoció que necesitaba espacios seguros para nuevos voguers.",
+      "Beginner Vogue emergió con la formalización de kiki scene y categorías de iniciación en la década de 1990-2000. La comunidad reconoció que necesitaba espacios seguros para nuevos voguers.",
       "La categoría refleja espíritu original de Ballroom como refugio — acoger a quienes empiezan, enseñar, celebrar primeros pasos.",
-      "Balls internacionales mantienen Virgin Vogue como categoría staple en kiki y main balls.",
+      "Balls internacionales mantienen Beginner Vogue como categoría staple en kiki y main balls.",
     ],
     judging: [
       "Los jueces evalúan técnica básica sólida, actitud, musicalidad y potencial. No exigen acrobacia extrema — exigen fundamentos limpios y presencia.",
       "También consideran respeto a la cultura: voguers que honran raíces negras de Harlem en actitud y estudio.",
-      "En batalla virgin, evalúan quién muestra más promesa y hambre.",
+      "En batalla beginner, evalúan quién muestra más promesa y hambre.",
     ],
     judgesLookFor: [
       "Los jueces buscan fundamentos — poses limpias, musicalidad básica, actitud confiada sin arrogancia prematura.",
-      "Buscan potencial: el virgin voguer que podría ser leyenda en cinco años si sigue practicando.",
+      "Buscan potencial: el beginner voguer que podría ser leyenda en cinco años si sigue practicando.",
       "El competidor que gana demuestra chops, respeto y hambre de crecer.",
     ],
     icons: [],
     tips: [
-      "Virgin Vogue es tu oportunidad — practica fundamentos obsesivamente, no intentes movimientos que no dominas.",
+      "Beginner Vogue es tu oportunidad — practica fundamentos obsesivamente, no intentes movimientos que no dominas.",
       "Observa veteranos, pide feedback, únete a una House. El primer trofeo es inicio, no destino.",
     ],
   },
@@ -687,7 +826,7 @@ export const extraCategories: Category[] = [
     tagline: "La pasarela abierta donde todos sirven look",
     group: "runway",
     whoCanWalk: [
-      "Open To All (OTA): cualquier identidad puede caminar — Femme Queens (FQ), Butch Queens (BQ), Female Figures (FF), Male Figures (MF), Butches, Drag Queens y más.",
+      "Open To All (OTA): cualquier figura puede caminar — Femme Queens (FQ), Butch Queens (BQ), Female Figures (FF), Male Figures (MF), Butches, Drag, Butch Queen Up in Drag y más.",
       "OTA Runway evalúa walk, outfit y presencia sin restricción de identidad. Es la pasarela democrática de Ballroom.",
       "House of Luna especifica: Female Figures caminan straight up and down con poses europeas; Male Figures pueden incluir más «antics» y shade.",
     ],
@@ -949,6 +1088,117 @@ export const extraCategories: Category[] = [
       "El competidor que gana define Catboy en la pista esa noche.",
     ],
     icons: [],
+  },
+  {
+    slug: "sex-appeal",
+    name: "Sex Appeal",
+    tagline: "Magnetismo crudo que la pista no puede ignorar",
+    group: "sex-siren",
+    whoCanWalk: [
+      "Generalmente OTA — Female Figure (FF) y Male Figure (MF) según el ball. Sex Appeal evalúa atractivo, carisma y presencia seductora más allá de performance técnica.",
+      "Distinto de Sex Siren en énfasis: Sex Appeal premia magnetismo natural y estética deseable; Sex Siren premia performance sensual coreografiada.",
+      "Verifica flyer — algunos balls separan FF Sex Appeal y MF Sex Appeal; otros mantienen categoría OTA.",
+    ],
+    history: [
+      "Sex Appeal codificó en Ballroom lo que la cultura mainstream a menudo niega a cuerpos negros LGBTQ+: el derecho a ser deseables, magnéticos y poderosos en la pista sin disculparse. En Harlem, donde la sexualidad negra queer fue criminalizada y estigmatizada, esta categoría reclama el atractivo como arte y como afirmación.",
+      "La categoría evalúa outfit, presencia, actitud, walk y la capacidad de comandar deseo en la pista. No exige performance sensual elaborada como Sex Siren — exige que el competidor irradie atractivo de forma innegable desde el primer segundo.",
+      "Sex Appeal dialoga con tradiciones de belleza negra — desde blaxploitation hasta videos musicales, desde club culture hasta la pasarela. Es categoría donde el cuerpo habla antes que el movimiento.",
+      "En balls contemporáneos, Sex Appeal aparece junto a Sex Siren en lineups OTA. Muchos balls piden a la audiencia no filmar durante estas categorías — respeto al espacio íntimo que crean.",
+    ],
+    origin: [
+      "Sex Appeal emergió como categoría distinta o complementaria a Sex Siren cuando Ballroom especializó evaluaciones de sensualidad y atractivo. iHeartBerlin y documentación europea distinguen Sex Siren (performance flirtatious) de categorías de appeal más centradas en presencia y estética.",
+      "La categoría refleja evolución de Ballroom hacia matices más precisos — no toda seducción es performance; a veces es simplemente presencia magnética impecable.",
+      "Balls internacionales y House of Luna incluyen Sex Appeal en paraguas OTA Sex Siren o como categoría standalone.",
+    ],
+    judging: [
+      "Los jueces evalúan atractivo, confianza, outfit, walk y presencia escénica. Buscan magnetismo que llene la pista — no necesariamente movimientos sugestivos elaborados.",
+      "También consideran coherencia estética: el look, la actitud y la energía deben alinearse en una narrativa de deseo controlado.",
+      "La línea entre Sex Appeal y Sex Siren es delgada — Sex Appeal premia quien seduce con presencia; Sex Siren premia quien seduce con performance.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan carisma sexual natural — o tan bien cultivado que parezca natural. Buscan outfit que realza sin distraer, walk que comanda, contacto visual que electriza.",
+      "Buscan confianza absoluta: quien sabe que es deseable y no necesita confirmación. El competidor que gana deja a la pista sin aliento.",
+    ],
+    icons: ["Angie Xtravaganza"],
+    tips: [
+      "Sex Appeal exige autenticidad. Si no te sientes cómodo en tu magnetismo, la pista lo detectará.",
+      "Invierte en outfit que realce tu figura y actitud. Sex Appeal premia presencia, no disfraz.",
+    ],
+  },
+  {
+    slug: "lion-king",
+    name: "Lion King",
+    tagline: "Poder felino y sex appeal no binario en la pista",
+    group: "sex-siren",
+    whoCanWalk: [
+      "Gender Non-Conforming (GNC) y competidores no binarios que encarnan sex appeal masculino o androgino — Lion King es categoría para quienes habitan entre géneros con energía depredadora y magnética.",
+      "Relacionada con Lion Babe (FF/GNC femenino) — Lion King es la contraparte masculina/androgina. Verifica flyer para restricciones.",
+      "No confundir con Catboy (juventud juguetona) ni Male Figure Sex Siren (sensualidad masculina binaria) — Lion King es categoría GNC específica.",
+    ],
+    history: [
+      "Lion King emergió en la escena global de Ballroom como categoría que codifica sex appeal no binario y gender non-conforming con energía masculina o androgina. Documentada en guías de balls europeos y escenas kiki internacionales, honra a competidores GNC que no encajan en Sex Siren masculino o femenino.",
+      "La categoría evalúa presencia felina — confianza depredadora, movimientos controlados, outfit que mezcla masculino y femenino con intención, y sex appeal que desafía categorías binarias. Es sensualidad GNC con poder.",
+      "Lion King dialoga con expansión de categorías GNC en Ballroom — GNC Face, GNC Runway, GNC Performance — como parte del reconocimiento de que la cultura negra de Harlem siempre acogió quienes no encajaban en casillas.",
+      "En balls contemporáneos, Lion King gana presencia especialmente en escenas que adoptan taxonomía europea (DANCE Festival München, iHeartBerlin). La categoría exige maestría en presencia GNC, no imitación de masculinidad heteronormativa.",
+    ],
+    origin: [
+      "Lion King emergió en la década de 2010-2020 junto con categorías GNC y no binarias en escena global. El nombre evoca poder felino — depredador, magnético, controlado.",
+      "La categoría refleja evolución inclusiva de Ballroom sin diluir raíces negras. Lion King no es trend — es codificación de presencia GNC que siempre existió en la pista.",
+      "Balls internacionales documentan Lion King junto a Lion Babe como par de categorías GNC de sex appeal.",
+    ],
+    judging: [
+      "Los jueces evalúan sex appeal GNC, presencia felina, outfit coherente, movimientos controlados y magnetismo en pista.",
+      "Buscan equilibrio masculino-femenino intencional — Lion King no premia confusión sino maestría androgina.",
+      "Confianza depredadora, contacto visual y performance completa importan.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan encarnación convincente de Lion King — no disfraz genérico sino presencia GNC auténtica y poderosa.",
+      "Buscan originalidad dentro de estética felina: movimientos, outfit, actitud que comandan deseo sin perder identidad GNC.",
+      "El competidor que gana define Lion King en la pista esa noche.",
+    ],
+    icons: [],
+    tips: [
+      "Define tu Lion King con claridad — energía depredadora, no agresión vacía.",
+      "Estudia referencias GNC en moda y performance, pero construye presencia propia.",
+    ],
+  },
+  {
+    slug: "senior",
+    name: "Senior",
+    tagline: "Décadas en la pista, respeto en cada paso",
+    group: "otros",
+    whoCanWalk: [
+      "Competidores Senior — generalmente 50 años o más, o con décadas documentadas en Ballroom según reglas del ball.",
+      "OTA en muchos balls: Senior Face, Senior Runway, Senior Vogue, Senior Realness como subcategorías. Verifica flyer para edad mínima y categoría específica.",
+      "Senior no es categoría de consolación — es espacio competitivo para veteranos cuya experiencia, presencia y legado merecen evaluación entre pares.",
+    ],
+    history: [
+      "Senior codificó lo que Ballroom siempre supo intuitivamente: la edad y la experiencia son activos en la pista, no obstáculos. En Harlem, las madres y padres mayores de 50 — Pepper LaBeija caminando con autoridad en sus últimas décadas, Dorian Corey con décadas de sabiduría — demostraron que la pista no tiene fecha de caducidad.",
+      "La categoría evalúa presencia, técnica, estilo y el peso de décadas en Ballroom. Los jueces reconocen que un Senior que camina trae historia en cada paso — Houses fundadas, categorías ganadas, generaciones enseñadas.",
+      "Senior aparece en balls contemporáneos como categoría OTA staple — The Posh Ball y balls internacionales incluyen Senior en múltiples disciplinas. Es celebración de longevidad en una cultura que perdió generaciones enteras al SIDA.",
+      "Cada competidor Senior que camina honra a quienes no pudieron envejecer en la pista — y afirma que Ballroom es legado intergeneracional, no solo juventud.",
+    ],
+    origin: [
+      "Senior emergió cuando Ballroom formalizó categorías por edad y experiencia — reconociendo que veteranos merecían espacio competitivo propio sin competir contra jóvenes en categorías generales.",
+      "La categoría refleja espíritu de respeto a elders en cultura negra — las madres y padres mayores como custodios de memoria y linaje.",
+      "Balls internacionales mantienen Senior con reglas claras de elegibilidad por edad o estatus legendario.",
+    ],
+    judging: [
+      "Los jueces evalúan presencia, técnica, estilo y coherencia según la subcategoría Senior (Face, Runway, Vogue, Realness). Los criterios son idénticos en rigor a categorías generales.",
+      "También consideran legado y «tens» — la autoridad de quien lleva décadas en la pista importa.",
+      "Senior premia excelencia madura, no nostalgia vacía.",
+    ],
+    judgesLookFor: [
+      "Los jueces buscan maestría que solo décadas producen — presencia impecable, técnica sólida, estilo inconfundible.",
+      "Buscan respeto a la cultura: Seniors que honran raíces de Harlem mientras demuestran que siguen siendo imparables.",
+      "El competidor que gana demuestra que la edad en Ballroom es corona, no limitación.",
+    ],
+    icons: ["Pepper LaBeija", "Dorian Corey"],
+    subcategories: ["Senior Face", "Senior Runway", "Senior Vogue", "Senior Realness"],
+    tips: [
+      "Senior es tu momento — décadas de experiencia son tu ventaja. Camina con la autoridad que solo el tiempo da.",
+      "Mantén técnica actualizada. Senior premia veteranos que siguen evolucionando, no quienes repiten glorias pasadas.",
+    ],
   },
 
   // ─── PERFORMANCE ─────────────────────────────────────────────────────────────

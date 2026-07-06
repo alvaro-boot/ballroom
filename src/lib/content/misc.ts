@@ -7,6 +7,8 @@ export const documentaries: Documentary[] = [
     year: "1990",
     description:
       "El documental que llevó Ballroom de Harlem al mundo. Ventana a las Houses, el voguing y las leyendas negras que construyeron la cultura.",
+    youtubeId: "o47CwiJLpes",
+    posterImage: "https://img.youtube.com/vi/o47CwiJLpes/hqdefault.jpg",
     history: [
       "Jennie Livingston pasó cuatro años — entre 1985 y 1989 — filmando en Harlem y documentando balls, entrevistando a competidores y capturando la vida cotidiana de madres, padres e hijos de Ballroom. El resultado fue un filme que cambió para siempre la percepción pública de una cultura negra que había existido en las sombras.",
       "Paris Is Burning sigue a figuras como Dorian Corey, Pepper LaBeija, Willi Ninja, Angie Xtravaganza, Octavia Saint Laurent y Venus Xtravaganza. Los muestra compitiendo, reflexionando sobre identidad, familia, fama y supervivencia, y construyendo un mundo propio en un Nueva York que las marginaba.",
@@ -24,6 +26,8 @@ export const documentaries: Documentary[] = [
     year: "2018–2021",
     description:
       "La serie de FX que llevó Ballroom a la televisión con el elenco trans más grande de la historia.",
+    youtubeId: "_t4YuPXdLZw",
+    posterImage: "https://img.youtube.com/vi/_t4YuPXdLZw/hqdefault.jpg",
     history: [
       "Creada por Ryan Murphy, Brad Falchuk y Steven Canals, Pose ambienta su narrativa en la escena de Ballroom de los 80 y 90 en Nueva York. Con guionistas, consultores y actores de la comunidad — incluyendo un elenco mayoritariamente trans y personas negras — la serie fue pionera en representación televisiva.",
       "Pose cuenta la historia de la House of Evangelista y dialoga directamente con la tradición negra de Ballroom. Billy Porter, MJ Rodriguez, Indya Moore y Dominique Jackson llevan a millones de hogares la memoria de madres, hijos, balls y la crisis del SIDA.",
@@ -41,6 +45,8 @@ export const documentaries: Documentary[] = [
     year: "2006",
     description:
       "Documental hecho con la participación activa de la comunidad de Ballroom, como respuesta y complemento a Paris Is Burning.",
+    youtubeId: "4E-AhouEL_s",
+    posterImage: "https://img.youtube.com/vi/4E-AhouEL_s/hqdefault.jpg",
     history: [
       "How Do I Look surgió de una necesidad: que la comunidad negra de Ballroom contara su propia historia. Wolfgang Busch trabajó durante años con voguers, madres de casas y legends para crear un documental que complementara — y en aspectos corrigiera — la narrativa de Paris Is Burning.",
       "El filme aborda directamente temas de apropiación cultural, derechos de imagen, compensación económica y la evolución de Ballroom más allá de los años 80. Incluye a Willi Ninja y otras figuras que critican cómo el mainstream se benefició de una cultura negra.",
@@ -116,16 +122,23 @@ export const glossaryTerms = [
   { term: "Floor", definition: "La pista donde se compite. «Tomar el floor» significa salir a performar." },
   { term: "Femme Queen (FQ)", definition: "Mujer trans dentro de Ballroom. Female Figure (FF). Categorías FQ — Face, Realness, Vogue, Sex Siren — son espacios de reconocimiento, no segregación." },
   { term: "Butch Queen", definition: "Hombre gay o bisexual cis (BQ) dentro de Ballroom. Compite bajo Male Figure en categorías masculinas: BQ Face, BQ Realness, BQ Vogue, BQ Sex Siren." },
-  { term: "Female Figure (FF)", definition: "Paraguas identitario femenino en Ballroom: Femme Queens (mujeres trans), Drag Queens (hombres cis en fem), Women (mujeres cis). Las categorías FF evalúan belleza, realness y performance femenina." },
+  { term: "Female Figure (FF)", definition: "Paraguas de presentación femenina en Ballroom: Femme Queens (mujeres trans), Women (mujeres cis), Drag y Butch Queen Up in Drag. Las categorías FF evalúan belleza, realness y performance femenina." },
   { term: "Male Figure (MF)", definition: "Paraguas identitario masculino: Butch Queens (hombres gay cis), Butches (mujeres masculinas), Trans Men. Compiten en categorías masculinas de la pista." },
-  { term: "Open To All (OTA)", definition: "Categorías abiertas a todas las identidades. OTA Runway, OTA Performance y similares permiten competencia cruzada donde la identidad no define la elegibilidad." },
-  { term: "Twister", definition: "Butch Queen que voguea en estilo femenino (Vogue Femme). Compite en categorías BQ Vogue Fem/Twister. No es drag queen — es BQ que domina la línea fem de voguing." },
-  { term: "Drag Queen (DQ)", definition: "Hombre cis en cross-dressing dentro de Ballroom. Female Figure. Distinto de Femme Queen (mujer trans) y de BQ Up in Drags Realness." },
+  { term: "Open To All (OTA)", definition: "Categorías abiertas a todas las figuras. OTA Runway, OTA Performance y similares permiten competencia cruzada donde la figura no define la elegibilidad." },
+  { term: "Twister", definition: "Butch Queen que camina Vogue Femme/Twisters. No es otra identidad: es el BQ que ejecuta esa categoría con técnica fem y twist de performance." },
+  { term: "Drag", definition: "Persona que va a los balls de mujer de forma sostenida, ya sea porque está en transición hacia FQ o porque le gusta esa presentación. Entra en Female Figure." },
+  { term: "Butch Queen Up in Drag", definition: "Butch Queen que para ciertos balls o categorías se viste de mujer. Sigue siendo BQ, pero en esa presentación entra en Female Figure." },
   { term: "Butch", definition: "Mujer cis de presentación masculina. Male Figure en pista. Compite en Butch Face, Butch Realness, Butch Vogue." },
   { term: "Realness with a Twist", definition: "Categoría de voguing donde el competidor camina en realness (pasar como un arquetipo) y luego transiciona a vogue. Evalúa la transformación dramática en la pista." },
   { term: "Old Way", definition: "Estilo clásico de voguing con poses rígidas, líneas angulares y referencias a las revistas de moda. El voguing original de Harlem antes de la evolución New Way." },
   { term: "New Way", definition: "Evolución del voguing con contorsiones, duckwalk, spins y elementos acrobáticos. Desarrollado en la década de 1990 por voguers como Willi Ninja y la House of Ninja." },
-  { term: "Virgin Vogue", definition: "Categoría para quienes nunca han ganado un trofeo en voguing. Espacio de entrada donde los novatos demuestran potencial sin competir contra leyendas consolidadas." },
+  { term: "Beginner Vogue", definition: "Categoría para quienes llevan menos de un año en voguing y no han ganado Grand Prize. Espacio de entrada donde los novatos demuestran potencial sin competir contra leyendas consolidadas." },
+  { term: "Sex Appeal", definition: "Categoría OTA que evalúa magnetismo, atractivo y presencia seductora — distinta de Sex Siren, que premia performance sensual coreografiada." },
+  { term: "Lion King", definition: "Categoría GNC de sex appeal masculino/androgino. Contraparte de Lion Babe. Para competidores no binarios con energía felina y magnética." },
+  { term: "Senior", definition: "Categoría para competidores veteranos — generalmente 50+ o con décadas en Ballroom. Incluye Senior Face, Runway, Vogue y Realness." },
+  { term: "GNC Face", definition: "Face para competidores Gender Non-Conforming que presentan mezcla de estética masculina y femenina en rostro y styling." },
+  { term: "New Face", definition: "Face para quienes nunca han ganado trofeo en categorías de Face. Puerta de entrada a la competencia de belleza facial." },
+  { term: "Everyday Realness", definition: "Realness cotidiano — pasar como persona común en la calle, sin glamour de ball. OTA FF y MF." },
   { term: "Commentator", definition: "MC de un ball. Narra la competencia, lanza shade, mantiene la energía y conoce la historia de cada House y competidor. No camina categorías — domina el micrófono." },
   { term: "Production", definition: "Categoría de performance grupal donde una House presenta un número coreografiado con narrativa, vestuario y presencia escénica. Es teatro de Ballroom en su máxima expresión." },
 ];
@@ -145,8 +158,6 @@ export const cultureTerms = [
   { term: "Tens", definition: "Intensidad eléctrica y presencia magnética que hace que la pista reaccione." },
   { term: "Chops", definition: "Credenciales demostradas en la pista. Respeto ganado con talento, no con palabras." },
   { term: "Realness", definition: "Autenticidad y la capacidad de «pasar» en contextos que niegan tu existencia." },
-  { term: "Fem Queen", definition: "Mujer trans dentro de Ballroom. Su experiencia es central en categorías como Face y Realness." },
-  { term: "Butch Queen", definition: "Hombre gay dentro de Ballroom. Compite en categorías masculinas o abiertas." },
 ];
 
 export const blogPosts = [

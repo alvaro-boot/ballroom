@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import ProseBlock from "@/components/ProseBlock";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { documentaries, ballroomRegions } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -19,49 +21,80 @@ export default function DocumentalesPage() {
       />
 
       <section className="px-6 py-20 lg:px-8">
-        <div className="mx-auto max-w-7xl space-y-12">
+        <div className="mx-auto max-w-7xl space-y-16">
           {documentaries.map((doc) => (
             <article
               key={doc.slug}
-              className="grid gap-8 border border-white/10 p-8 card-hover lg:grid-cols-[1fr_2fr]"
+              className="overflow-hidden border border-white/10 card-hover"
             >
-              <div className="flex aspect-video items-center justify-center bg-dark-gray">
-                <span className="font-[family-name:var(--font-playfair)] text-5xl text-gold/30">
-                  {doc.year}
-                </span>
-              </div>
-              <div>
-                <p className="text-xs tracking-[0.2em] text-gold uppercase">
-                  {doc.year}
-                </p>
-                <h2 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl text-white">
-                  {doc.title}
-                </h2>
-                <p className="mt-2 text-sm text-white/50">{doc.description}</p>
-
-                <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
-                  Historia
-                </h3>
-                <div className="mt-3">
-                  <ProseBlock paragraphs={doc.history} />
+              <div className="grid lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+                <div className="relative aspect-video bg-dark-gray lg:min-h-full">
+                  {doc.youtubeId ? (
+                    <YouTubeEmbed videoId={doc.youtubeId} title={doc.title} />
+                  ) : doc.posterImage ? (
+                    <Image
+                      src={doc.posterImage}
+                      alt={doc.title}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 50vw"
+                      className="object-cover object-top grayscale"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center">
+                      <span className="font-[family-name:var(--font-playfair)] text-5xl text-gold/30">
+                        {doc.year}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
-                {doc.whereToWatch && (
-                  <>
-                    <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
-                      Dónde verlo
-                    </h3>
-                    <p className="mt-2 text-sm text-white/70">
+                <div className="p-8 lg:p-10">
+                  <p className="text-xs tracking-[0.2em] text-gold uppercase">
+                    {doc.year}
+                  </p>
+                  <h2 className="mt-2 font-[family-name:var(--font-playfair)] text-3xl text-white">
+                    {doc.title}
+                  </h2>
+                  <p className="mt-3 text-sm leading-relaxed text-white/60">
+                    {doc.description}
+                  </p>
+
+                  {doc.youtubeId && (
+                    <a
+                      href={`https://www.youtube.com/watch?v=${doc.youtubeId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-gold mt-4 inline-block text-xs tracking-[0.15em] uppercase"
+                    >
+                      Ver en YouTube →
+                    </a>
+                  )}
+
+                  {doc.whereToWatch && (
+                    <p className="mt-4 text-xs text-white/40">
+                      <span className="text-gold">Dónde verlo: </span>
                       {doc.whereToWatch}
                     </p>
-                  </>
-                )}
+                  )}
+                </div>
+              </div>
 
-                <h3 className="mt-8 text-xs tracking-[0.15em] text-gold uppercase">
-                  Influencia
-                </h3>
-                <div className="mt-3">
-                  <ProseBlock paragraphs={doc.influence} />
+              <div className="grid gap-10 border-t border-white/10 p-8 lg:grid-cols-2 lg:p-10">
+                <div>
+                  <h3 className="text-xs tracking-[0.15em] text-gold uppercase">
+                    Historia
+                  </h3>
+                  <div className="mt-4">
+                    <ProseBlock paragraphs={doc.history} />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-xs tracking-[0.15em] text-gold uppercase">
+                    Influencia
+                  </h3>
+                  <div className="mt-4">
+                    <ProseBlock paragraphs={doc.influence} />
+                  </div>
                 </div>
               </div>
             </article>

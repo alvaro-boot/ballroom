@@ -77,9 +77,20 @@ export interface Documentary {
   title: string;
   year: string;
   description: string;
+  youtubeId?: string;
+  posterImage?: string;
   history: string[];
   whereToWatch?: string;
   influence: string[];
+}
+
+export interface GalleryItem {
+  slug: string;
+  title: string;
+  year: string;
+  category: string;
+  image: string;
+  credit?: string;
 }
 
 export interface BlogPost {
