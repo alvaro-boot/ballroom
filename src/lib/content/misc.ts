@@ -114,8 +114,20 @@ export const glossaryTerms = [
   { term: "Walk", definition: "La forma de caminar en la pista. En Runway, el walk es tan importante como el outfit." },
   { term: "Category", definition: "Modalidad de competencia: Face, Vogue, Runway, Realness, etc. Cada una evalúa habilidades distintas." },
   { term: "Floor", definition: "La pista donde se compite. «Tomar el floor» significa salir a performar." },
-  { term: "Fem Queen", definition: "Mujer trans dentro de Ballroom. Categorías y espacios específicos honran su experiencia." },
-  { term: "Butch Queen", definition: "Hombre gay dentro de Ballroom. Compite en categorías masculinas o OTA." },
+  { term: "Femme Queen (FQ)", definition: "Mujer trans dentro de Ballroom. Female Figure (FF). Categorías FQ — Face, Realness, Vogue, Sex Siren — son espacios de reconocimiento, no segregación." },
+  { term: "Butch Queen", definition: "Hombre gay o bisexual cis (BQ) dentro de Ballroom. Compite bajo Male Figure en categorías masculinas: BQ Face, BQ Realness, BQ Vogue, BQ Sex Siren." },
+  { term: "Female Figure (FF)", definition: "Paraguas identitario femenino en Ballroom: Femme Queens (mujeres trans), Drag Queens (hombres cis en fem), Women (mujeres cis). Las categorías FF evalúan belleza, realness y performance femenina." },
+  { term: "Male Figure (MF)", definition: "Paraguas identitario masculino: Butch Queens (hombres gay cis), Butches (mujeres masculinas), Trans Men. Compiten en categorías masculinas de la pista." },
+  { term: "Open To All (OTA)", definition: "Categorías abiertas a todas las identidades. OTA Runway, OTA Performance y similares permiten competencia cruzada donde la identidad no define la elegibilidad." },
+  { term: "Twister", definition: "Butch Queen que voguea en estilo femenino (Vogue Femme). Compite en categorías BQ Vogue Fem/Twister. No es drag queen — es BQ que domina la línea fem de voguing." },
+  { term: "Drag Queen (DQ)", definition: "Hombre cis en cross-dressing dentro de Ballroom. Female Figure. Distinto de Femme Queen (mujer trans) y de BQ Up in Drags Realness." },
+  { term: "Butch", definition: "Mujer cis de presentación masculina. Male Figure en pista. Compite en Butch Face, Butch Realness, Butch Vogue." },
+  { term: "Realness with a Twist", definition: "Categoría de voguing donde el competidor camina en realness (pasar como un arquetipo) y luego transiciona a vogue. Evalúa la transformación dramática en la pista." },
+  { term: "Old Way", definition: "Estilo clásico de voguing con poses rígidas, líneas angulares y referencias a las revistas de moda. El voguing original de Harlem antes de la evolución New Way." },
+  { term: "New Way", definition: "Evolución del voguing con contorsiones, duckwalk, spins y elementos acrobáticos. Desarrollado en la década de 1990 por voguers como Willi Ninja y la House of Ninja." },
+  { term: "Virgin Vogue", definition: "Categoría para quienes nunca han ganado un trofeo en voguing. Espacio de entrada donde los novatos demuestran potencial sin competir contra leyendas consolidadas." },
+  { term: "Commentator", definition: "MC de un ball. Narra la competencia, lanza shade, mantiene la energía y conoce la historia de cada House y competidor. No camina categorías — domina el micrófono." },
+  { term: "Production", definition: "Categoría de performance grupal donde una House presenta un número coreografiado con narrativa, vestuario y presencia escénica. Es teatro de Ballroom en su máxima expresión." },
 ];
 
 export const cultureTerms = [

@@ -5,6 +5,7 @@ const navLinks = [
   { href: "/linea-del-tiempo", label: "Línea del tiempo" },
   { href: "/casas", label: "Casas" },
   { href: "/categorias", label: "Categorías" },
+  { href: "/identidades", label: "Identidades" },
   { href: "/leyendas", label: "Leyendas" },
   { href: "/documentales", label: "Documentales" },
   { href: "/galeria", label: "Galería" },

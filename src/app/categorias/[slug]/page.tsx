@@ -5,10 +5,23 @@ import PageHero from "@/components/PageHero";
 import ProseBlock from "@/components/ProseBlock";
 import FigurePortrait from "@/components/FigurePortrait";
 import { categories, getCategoryBySlug } from "@/lib/data";
+import type { CategoryGroup } from "@/lib/types";
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
+
+const groupLabels: Record<CategoryGroup, string> = {
+  belleza: "Belleza & Face",
+  runway: "Runway",
+  vogue: "Vogue",
+  realness: "Realness",
+  moda: "Moda & Estilo",
+  cuerpo: "Cuerpo",
+  "sex-siren": "Sex Siren",
+  performance: "Performance",
+  otros: "Open To All & Otros",
+};
 
 export async function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
@@ -39,10 +52,36 @@ export default async function CategoriaPage({ params }: Props) {
   return (
     <>
       <PageHero
-        label="Categoría"
+        label={groupLabels[category.group]}
         title={category.name}
         subtitle={category.tagline}
       />
+
+      {category.whoCanWalk && category.whoCanWalk.length > 0 && (
+        <section className="border-b border-white/10 px-6 py-8 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <p className="text-xs tracking-[0.2em] text-gold uppercase">
+              Quién puede caminar
+            </p>
+            <ul className="mt-4 space-y-2">
+              {category.whoCanWalk.map((who) => (
+                <li
+                  key={who}
+                  className="text-sm leading-relaxed text-white/60"
+                >
+                  {who}
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/identidades"
+              className="link-gold mt-4 inline-block text-xs tracking-[0.15em] uppercase"
+            >
+              Entender identidades →
+            </Link>
+          </div>
+        </section>
+      )}
 
       <section className="px-6 py-20 lg:px-8">
         <div className="mx-auto max-w-4xl space-y-16">

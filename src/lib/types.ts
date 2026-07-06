@@ -28,6 +28,8 @@ export interface Category {
   slug: string;
   name: string;
   tagline: string;
+  group: CategoryGroup;
+  whoCanWalk?: string[];
   history: string[];
   origin: string[];
   judging: string[];
@@ -35,6 +37,29 @@ export interface Category {
   icons: string[];
   tips?: string[];
   subcategories?: string[];
+}
+
+export type CategoryGroup =
+  | "belleza"
+  | "runway"
+  | "vogue"
+  | "realness"
+  | "moda"
+  | "cuerpo"
+  | "sex-siren"
+  | "performance"
+  | "otros";
+
+export interface Identity {
+  slug: string;
+  name: string;
+  abbreviation?: string;
+  figure?: "FF" | "MF" | "OTA";
+  tagline: string;
+  description: string[];
+  canWalk?: string[];
+  history: string[];
+  relatedCategories: string[];
 }
 
 export interface Legend {

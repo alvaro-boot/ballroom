@@ -22,6 +22,7 @@ export default function Footer() {
                 { href: "/historia", label: "Historia" },
                 { href: "/casas", label: "Casas" },
                 { href: "/categorias", label: "Categorías" },
+                { href: "/identidades", label: "Identidades" },
                 { href: "/leyendas", label: "Leyendas" },
               ].map((link) => (
                 <Link

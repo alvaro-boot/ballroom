@@ -1,6 +1,8 @@
-import type { Category } from "../types";
+import type { Category } from "../../types";
 
-export const categories: Category[] = [
+type CoreCategory = Omit<Category, "group">;
+
+export const coreCategories: CoreCategory[] = [
   {
     slug: "face",
     name: "Face",
