@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --black: #0b0b0b;
+  --white: #ffffff;
+  --gold: #c8a646;
+  --dark-gray: #1b1b1b;
+  --gold-muted: rgba(200, 166, 70, 0.15);
+}
+
+@theme inline {
+  --color-black: var(--black);
+  --color-white: var(--white);
+  --color-gold: var(--gold);
+  --color-dark-gray: var(--dark-gray);
+  --color-gold-muted: var(--gold-muted);
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-inter);
+  --font-quote: var(--font-cormorant);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--black);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.animation-delay-600 {
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+
+.gold-line {
+  width: 60px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(11, 11, 11, 0.4) 0%,
+    rgba(11, 11, 11, 0.7) 50%,
+    rgba(11, 11, 11, 1) 100%
+  );
+}
+
+.card-hover {
+  transition: transform 0.4s ease, border-color 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+}
+
+.link-gold {
+  position: relative;
+  color: var(--gold);
+  transition: color 0.3s ease;
+}
+
+.link-gold::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}
+
+.link-gold:hover::after {
+  width: 100%;
+}
