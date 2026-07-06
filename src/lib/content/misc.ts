@@ -68,7 +68,7 @@ export const ballroomRegions = [
   {
     region: "Colombia",
     description:
-      "Bogotá y Medellín lideran la escena colombiana de Ballroom. Eventos como el Bogotá Ball, talleres de voguing y casas locales consolidan una comunidad en crecimiento. La escena colombiana dialoga con Harlem y honra a Angie Xtravaganza como referente de la participación latina dentro de una cultura fundada por personas negras. Cuarzo 007 y Vogue Society nacen en este contexto.",
+      "Bogotá y Medellín lideran la escena colombiana de Ballroom. Eventos como el Bogotá Ball, talleres de voguing y casas locales consolidan una comunidad en crecimiento. La escena colombiana dialoga con Harlem y honra a Angie Xtravaganza como referente de la participación latina dentro de una cultura fundada por personas negras.",
   },
   {
     region: "Brasil",

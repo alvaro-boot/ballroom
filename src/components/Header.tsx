@@ -11,7 +11,6 @@ const navLinks = [
   { href: "/galeria", label: "Galería" },
   { href: "/blog", label: "Blog" },
   { href: "/recursos", label: "Recursos" },
-  { href: "/sobre", label: "Sobre Cuarzo 007" },
 ];
 
 export default function Header() {

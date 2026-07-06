@@ -43,7 +43,6 @@ export default function Footer() {
                 { href: "/blog", label: "Blog" },
                 { href: "/recursos", label: "Glosario" },
                 { href: "/documentales", label: "Documentales" },
-                { href: "/sobre", label: "Sobre Cuarzo 007" },
               ].map((link) => (
                 <Link
                   key={link.href}
